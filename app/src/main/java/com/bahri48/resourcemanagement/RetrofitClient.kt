@@ -13,7 +13,7 @@ object RetrofitClient {
     // Konstanta BASE_URL menyimpan URL dasar API untuk autentikasi
     // 'const val' berarti compile-time constant (lebih efisien dari val biasa)
     // Semua endpoint relatif akan ditambahkan ke URL ini, misalnya: BASE_URL + "login"
-    private const val BASE_URL = "https://pendataan-lab.bahri48.com/api/auth/"
+    private const val BASE_URL = "https://your-backend-url-api"
 
     // Properti instance bertipe ApiService yang akan diinisialisasi secara lazy
     // 'by lazy' berarti kode di dalam blok hanya dijalankan saat pertama kali instance diakses
